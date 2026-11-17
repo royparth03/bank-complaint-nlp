@@ -1,0 +1,39 @@
+{
+  "raw_rows": 563191,
+  "date_min": "2015-03-19",
+  "date_max": "2024-02-09",
+  "clean_rows": 401551,
+  "sample_rows": 22500,
+  "products": {
+    "Checking or savings account": 2500,
+    "Credit card or prepaid card": 2500,
+    "Credit reporting": 2500,
+    "Debt collection": 2500,
+    "Money transfer, virtual currency, or money service": 2500,
+    "Mortgage": 2500,
+    "Payday, title or personal loan": 2500,
+    "Student loan": 2500,
+    "Vehicle loan or lease": 2500
+  },
+  "routing": {
+    "Majority class": {
+      "accuracy": 0.111,
+      "macro_f1": 0.022
+    },
+    "TF-IDF + logistic regression": {
+      "accuracy": 0.808,
+      "macro_f1": 0.809
+    },
+    "MiniLM embeddings + logistic regression": {
+      "accuracy": 0.773,
+      "macro_f1": 0.773
+    }
+  },
+  "search": {
+    "queries": 2000,
+    "index_size": 18000,
+    "issues": 86,
+    "precision_at_5_same_issue_embeddings": 0.346,
+    "precision_at_5_same_issue_tfidf": 0.3
+  }
+}

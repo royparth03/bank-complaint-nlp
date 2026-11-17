@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+data/
+outputs/run.log
+# outputs of the removed theme-clustering experiment
+outputs/checking_savings_themes.csv
+outputs/themes_relief.png
